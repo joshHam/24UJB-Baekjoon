@@ -6,8 +6,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-//		int i1 = sc.nextInt(); //Ã¹¹øÂ° ¹æ¹ý ¼±¾ð
-//		int i2 = sc.nextInt();
+//		int i1 = sc.nextInt(); //Ã¹ï¿½ï¿½Â° ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+//		int i2 = sc.nextInt(); 
 		String num1 = sc.next();
 		String num2 = sc.next();
 		sc.close();
@@ -16,26 +16,26 @@ public class Main {
 //		System.out.println(i2);		
 		
 		
-		//Ã¹¹øÂ° ¹æ¹ý
-		//i1/10Àº ¸òÀÌ³ª¿È
-//		System.out.println(i1*(i2%10));//i1%10Àº ³ª¸ÓÁö°¡ ³ª¿È
+		//Ã¹ï¿½ï¿½Â° ï¿½ï¿½ï¿½
+		//i1/10ï¿½ï¿½ ï¿½ï¿½ï¿½Ì³ï¿½ï¿½ï¿½
+//		System.out.println(i1*(i2%10));//i1%10ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 //		System.out.println(i1*((int)(i2*0.1)%10));
 //		System.out.println(i1*((int)(i2*0.01)%10));
 //		System.out.println(i1*i2);
 		
 		
-		//µÎ¹øÂ°¹æ¹ý
+		//ï¿½Î¹ï¿½Â°ï¿½ï¿½ï¿½
 		
 		
 		
 		
 		
 		
-	//µÎ¹øÂ° Ç®ÀÌ¹æ¹ý
+	//ï¿½Î¹ï¿½Â° Ç®ï¿½Ì¹ï¿½ï¿½
 		int inum1 = Integer.parseInt(num1);
 
-		int inum2 = num2.charAt(2) - '0'; //¡Ú¹®ÀÚ¿­·Î ¹ÞÀº ¼ýÀÚ¸¦ -'0'ÇØÁÖ¸é ¼ýÀÚ·Î º¯È¯µÈ´Ù¡Ú
-		System.out.println(inum1 * inum2);//ASCCIIÄÚµå°ª
+		int inum2 = num2.charAt(2) - '0'; //ï¿½Ú¹ï¿½ï¿½Ú¿ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ú¸ï¿½ -'0'ï¿½ï¿½ï¿½Ö¸ï¿½ ï¿½ï¿½ï¿½Ú·ï¿½ ï¿½ï¿½È¯ï¿½È´Ù¡ï¿½
+		System.out.println(inum1 * inum2);//ASCCIIï¿½Úµå°ª
 
 		inum2 = num2.charAt(1) - '0';
 		System.out.println(inum1 * inum2);
