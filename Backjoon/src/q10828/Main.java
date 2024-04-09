@@ -14,12 +14,14 @@ public class Main {
 			String line = br.readLine();    
 			int cnt = Integer.parseInt(line);
 			stk = new SJStack(cnt);
+			
 			for (int i = 0; i < cnt; i++) {
 				line = br.readLine();
 				StringTokenizer st = new StringTokenizer(line);
 				String cmd = st.nextToken();
 //				System.out.println(cmd);
 
+				
 				if (cmd.equals("push")) {
 					String cmd2 = st.nextToken();
 //					System.out.println(cmd2);
