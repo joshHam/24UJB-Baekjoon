@@ -11,7 +11,7 @@ public class Main {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		SJStack stk;  
 		try {
-			String line = br.readLine();
+			String line = br.readLine();  
 			int cnt = Integer.parseInt(line);
 			stk = new SJStack(cnt);
 			for (int i = 0; i < cnt; i++) {
