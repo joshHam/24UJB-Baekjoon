@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int inp = sc.nextInt();
-		sc.close();
+		sc.close();  
 
 		int s = 1;
 
@@ -19,7 +19,7 @@ public class Main {
 				break;
 			}
 
-			// °­»ç´Ô Ç®ÀÌ
+			// ï¿½ï¿½ï¿½ï¿½ï¿½ Ç®ï¿½ï¿½
 			int r = 1, m = 1;
 			while (true) {
 				if (inp <= r) {
