@@ -1,5 +1,5 @@
 package q10845;
-				// °­»ç´Ô Ç®ÀÌ
+				// ï¿½ï¿½ï¿½ï¿½ï¿½ Ç®ï¿½ï¿½
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -9,7 +9,7 @@ public class Main {
 	public static void main(String[] args) {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		try {
-			String line = br.readLine();
+			String line = br.readLine();  
 			int n = Integer.parseInt(line);
 			SJQueue q = new SJQueue(10000);
 			for (int i = 0; i < n; i++) {
