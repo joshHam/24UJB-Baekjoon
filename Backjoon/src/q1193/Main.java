@@ -3,6 +3,7 @@ package q1193;
 import java.util.Scanner;
 							//강사 풀이
 public class Main {	
+	
 	private static int leftValue = 1, rightValue = 1;
 
 	public static void main(String[] args) {
@@ -14,18 +15,20 @@ public class Main {
 		// LEFTDOWN - DOWN
 		// 1/1 - 1/2 - 2/1 - 3/1 - 2/2 - 1/3 - 1/4 - 2/3 - 3/2 - 4/1 - 5/1
 		// RIGHT(1) - LEFTDOWN(1, 3, 5 ...) - DOWN(1) - RIGHTUP(2, 4, 6 ...) - RIGHT
-
+		
+		
 		int ldcnt = 1;
 		int rucnt = 2;
+		
 		while (true) {
 			if (--X == 0)
 				break;
-			rightValue++; // right
+			rightValue++;		 // right
 
 			for (int i = 0; i < ldcnt; i++) {
 				if (--X == 0)
 					break;
-				// leftdown
+								// leftdown
 				leftValue++;
 				rightValue--;
 			}
@@ -34,12 +37,12 @@ public class Main {
 
 			if (--X == 0)
 				break;
-			leftValue++; // down
+			leftValue++;		 // down
 			
 			for (int j = 0; j < rucnt; j++) {
 				if (--X == 0)
 					break;
-				// rightup
+								// rightup
 				leftValue--;
 				rightValue++;
 			}
