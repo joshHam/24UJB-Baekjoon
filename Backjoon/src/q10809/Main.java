@@ -2,7 +2,7 @@ package q10809;
 
 import java.util.Scanner;	//못품 Unsolved
 
-public class Main {
+public class Main { 
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
