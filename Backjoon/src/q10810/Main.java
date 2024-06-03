@@ -9,25 +9,26 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
 		int M = sc.nextInt();
-		
-		int[]arr= new int[N];
-		
-		for(int l=0;l<M;l++) {
+
+		int[] bucket = new int[N];
+
+		for (int l = 0; l < M; l++) {
 			int i = sc.nextInt();
 			int j = sc.nextInt();
 			int k = sc.nextInt();
 
-			for(int o=i-1;o<=j-1;o++) {
-				arr[o]=k;
+//			System.out.println(i +" "+j+" "+k);
+			
+			for (int o = i - 1; o <= j - 1; o++) {
+				bucket[o] = k;
 			}
-		}sc.close();
-		
-		for(int l=0;l<N;l++) {
-			System.out.print(arr[l]+" ");
 		}
-		
-		
-		
+		sc.close();
+
+		for (int l = 0; l < N; l++) {
+			System.out.print(bucket[l] + " ");
+		}
+
 	}
 
 }
